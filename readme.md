@@ -19,11 +19,6 @@ Setup iptables rules
 ```
 ./bin/traffic-accounting.sh start
 ```
-## Stop
-Remove iptables rules
-```
-./bin/traffic-accounting.sh stop
-```
 ## Write traffic counters to statistic files
 Example cron job
 ```
@@ -33,4 +28,9 @@ Example cron job
 Example cron job
 ```
 0 0 1 * * PATH-TO-HERE/bin/traffic-accounting.sh mail your@mail.address
+```
+## Stop
+Remove iptables rules
+```
+./bin/traffic-accounting.sh stop
 ```
